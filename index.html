@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Dons scrims scoring system</title>
+  <!-- Tell the browser to be responsive to screen width -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="dist/fonts/fontawesome-free/css/all.min.css">
+  <link rel="stylesheet" href="dist/css/adminlte.min.css">
+  <link rel="stylesheet" href="dist/css/Don.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@700&display=swap" rel="stylesheet">
+</head>
+<body class="hold-transition sidebar-mini layout-fixed">
+
+<div class=container id=DonTitleCont>
+  <div class = DonTitle>
+    <p class=" Dontitle text-center"> Dons SCRIMS SCORING SYSTEM </p>
+  </div>
+</div>
+</div>
+<div class=container>
+  <div class="card" wfd-id="1395">
+      <div class="card-body" wfd-id="1396">
+        <div id="table" class="table-editable" wfd-id="1397">
+          <div class="row">
+          <div class="col-sm-4">
+            <div class="form-group col-8">
+              <input type="text" class="form-control" id="Clan_N" Placeholder="Clans number" >
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="form-group col-12">
+              <button type="button" class="btn btn-block bg-gradient-success add-rows swalDefaultWarning">Form Grid</button>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="form-group col-12">
+              <button type="button" id="ResBtn" class="btn btn-block bg-gradient-success GetRes swalDefaultWarning">Do the math</button>
+            </div>
+          </div>
+        </div>
+          <table class="table table-bordered table-responsive-md table-striped text-center" id="ScoringGrid">
+            <thead>
+              <tr>
+                      <th rowspan="2">CLAN TAG</th>
+                      <th rowspan="2">CLAN NAME </th>
+                      <th colspan="2" scope="colgroup">ROOM 1</th>
+                      <th colspan="2" scope="colgroup">ROOM 2</th>
+                      <th colspan="2" scope="colgroup">ROOM 3</th>
+                      <th rowspan="2"> Kill Points </th>
+                      <th rowspan="2"> Ranking Points </th>
+                      <th data-sort="int" data-sort-default="desc" rowspan="2"> Points TOTAL </th>
+                    </tr>
+                    <tr>
+                      <th  >RANK</th>
+                      <th  >KILLS</th>
+                      <th  >RANK</th>
+                      <th  >KILLS</th>
+                      <th  >RANK</th>
+                      <th  >KILLS</th>
+                    </tr>
+            </thead>
+            <tbody>
+            
+            </tbody>
+          </table>
+         
+          </div>
+        </div>
+      </div>
+</div>
+<!-- ./wrapper -->
+
+<!-- jQuery -->
+<script src="dist/js/jquery/jquery.min.js"></script>
+
+<!-- jQuery UI 1.11.4 -->
+<script src="dist/js/jquery-ui/jquery-ui.min.js"></script>
+
+<!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
+<script>
+  $.widget.bridge('uibutton', $.ui.button)
+</script>
+<!-- Bootstrap 4 -->
+<script src="dist/js/bootstrap.bundle.min.js"></script>
+<!-- ChartJS -->
+<script src="dist/js/adminlte.js"></script>
+<script src="dist/js/stupidtable.js"></script>
+<script type="text/javascript" src="dist/js/Donscripts.js"></script>
+
+<script type="text/javascript">
+	$("table").stupidtable();
+</script>
+
+</body>
+</html>

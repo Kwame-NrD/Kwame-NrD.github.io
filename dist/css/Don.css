@@ -1,0 +1,26 @@
+@font-face {
+    font-family: "VermonVibes";
+    src: url("../fonts/VermonVibes.otf");
+}
+
+.DonTitle{
+	padding-top : 2%;
+	padding-bottom: 2%;
+}
+.Dontitle{
+	font-size: 60px;
+	font-family: 'Rajdhani', sans-serif; 
+	color: #ff2626;
+	text-align: center;
+}
+
+.AliCent {
+	margin : 0 auto;
+}
+
+
+
+#DonTitleCont{
+	background-color: black
+	/*background-image: url("../img/cover.jpg");*/
+}
