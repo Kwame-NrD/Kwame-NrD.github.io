@@ -18,9 +18,27 @@
 	margin : 0 auto;
 }
 
+.pos{
+	margin-bottom: 2%;
+	margin-top: 2%;
+}
+.bbg{
+	background-image: url('../img/bg1.jpeg');
+	background-repeat: repeat;
+	background-position: center;
+}
+.bgc{
+	background-color: black;
+}
 
 
 #DonTitleCont{
 	background-color: black
 	/*background-image: url("../img/cover.jpg");*/
+}
+
+.table-bg{
+	background-image: url('../img/blur_partlogo.png');
+	background-repeat: no-repeat;
+	background-position: center;
 }
