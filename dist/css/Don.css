@@ -38,7 +38,11 @@
 }
 
 .table-bg{
+	margin-top: 1%;
 	background-image: url('../img/blur_partlogo.png');
 	background-repeat: no-repeat;
 	background-position: center;
+}
+.hdpos{
+	margin : 0 auto;
 }

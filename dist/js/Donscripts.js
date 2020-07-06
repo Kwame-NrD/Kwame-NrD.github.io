@@ -23,7 +23,7 @@ $(document).ready(function(){
           var table = $("#ScoringGrid tbody");
           var rowcount = $("#ScoringGrid tbody tr:last").index() + 1;
           if (rowcount > 1){
-          var rankscores = [30,24,20,16,14,12,10,8,7,6,5,4,3,2,1,0,0,0]
+          var rankscores = [20,14,10,8,7,6,5,4,3,2,1,1,1,1,1,0,0,0]
             table.find('tr').each(function (i) {
             var tds = $(this).find('td');
             R1R = tds.eq(2).text();
